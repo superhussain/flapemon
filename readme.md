@@ -1,6 +1,6 @@
 ## flapémon ##
 
-### A Pokémon based Flappy Bird Alternative ### 
+### A Pokémon based Flappy Bird Alternative  
 
 
 

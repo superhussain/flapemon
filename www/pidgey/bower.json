@@ -1,0 +1,22 @@
+{
+  "name": "flapémon",
+  "version": "0.0.1",
+  "authors": [
+	"Hussain Abbas <super_hussain@bl4ck0ut.com>"
+  ],
+  "description": "flapémon",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://bl4ck0ut.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~1.1.4"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>flapémon</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="apple-touch-icon" href="../icon.png"/>
+        <meta name=apple-mobile-web-app-capable content=yes>
+	    <meta name=apple-mobile-web-app-status-bar-style content=black>
+
+  <style>
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000 url(../assets/broken_noise.png);
+    background-repeat: repeat;
+  }
+  #screen canvas{
+    margin: 0 auto;
+  }
+  #github{
+    position:absolute;
+    bottom: 5px;
+    right:5px;
+  }
+  #loading{
+    position: absolute;
+    font-family: "Verdana";
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    top: 50%;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+		margin:0 0 20px 0;
+		color:#FFFFFF;
+		font-weight:300;
+		font-family: 'Press Start 2P', cursive;
+		line-height:1.5em;
+	}
+
+	h1{
+		font-size:48px;
+		text-shadow: 3px 3px 3px #aaa;
+	}
+
+	h2{
+		font-size:36px;
+	}
+
+	h3{
+		font-size:24px;
+	}
+
+	h4{
+		font-size:20px;
+	}
+
+	h5{
+		font-size:18px;
+	}
+
+	h6{
+		font-size:16px;
+	}
+  </style>
+</head>
+<body>
+
+<div id="loading">Loading flapémon...</div>
+<div id="screen"></div>
+
+<audio controls="controls">   
+   <source src="../assets/moosic.mp3" />  
+</audio>
+
+
+
+<div id="github"></div>
+<script src="index.min.js?v=02131824"></script>
+
+
+</body>
+</html>
